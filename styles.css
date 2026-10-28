@@ -56,3 +56,11 @@ footer{background:var(--eq-navy)}
 .hero-photo img{display:block;width:100%;height:100%;object-fit:contain;object-position:center center}
 @media(max-width:760px){.hero-photo{height:auto;min-height:0;aspect-ratio:9/16;width:100%}.hero-photo img{object-fit:contain;object-position:center}}
 @media(max-width:480px){.hero-photo{height:auto;min-height:0;aspect-ratio:9/16}}
+
+/* Ícones SVG oficiais, sem emoji ou caracteres decorativos */
+.ui-icon{display:inline-block;width:1.1em;height:1.1em;flex:0 0 auto;vertical-align:-.16em;stroke:currentColor}
+.pill .ui-icon,.more .ui-icon{width:1em;height:1em;margin-left:.28em}
+.features b .ui-icon{width:30px;height:30px;stroke-width:1.5}
+.service .symbol .ui-icon{width:30px;height:30px;stroke-width:1.5}
+.ticker .ui-icon{width:13px;height:13px;vertical-align:middle}
+#toggle .ui-icon{width:25px;height:25px}
